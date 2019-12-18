@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+
+import MovieCard from './MovieCard';
 import axios from 'axios';
 
 const MovieList = props => {
